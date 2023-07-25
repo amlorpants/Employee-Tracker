@@ -1,6 +1,5 @@
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
-const { default: Choice } = require('inquirer/lib/objects/choice');
 
 const db = mysql.connection(
   {
