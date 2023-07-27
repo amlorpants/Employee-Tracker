@@ -21,3 +21,11 @@ CREATE TABLE employee (
     role_id INT REFERENCES role(id) ON DELETE SET NULL,
     manager_id INT NOT NULL
 );
+
+-- make CRUD (create, read, update, delete) interactions for each table
+-- department R, C, D
+-- role R, C, D
+-- employee R, C, U, D
+
+-- generate mock data to seed/populate the tables with (seperate seed.sql file)
+
